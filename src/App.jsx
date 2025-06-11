@@ -41,6 +41,8 @@ export default function App() {
     })
   }
 
+  
+
   const filteredTodos = todos.filter((todo) => {
     if(filter === "completed") return todo.completed;
     if(filter === "pending") return !todo.completed;
